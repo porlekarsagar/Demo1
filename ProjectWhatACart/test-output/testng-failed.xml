@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="AllTests.WishListTest_1">
+        <methods>
+          <include name="verifyAddWishButtonForDesktops_2"/>
+          <include name="verifyWishListButtonForAllDesktops_4"/>
+          <include name="verifyWishListButtonForAllLaptopsAndNotebooks_5"/>
+          <include name="verifyWishListButtonForAllCamera_6"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifycheckAddWishButtonForCamera_8"/>
+          <include name="verifyMultipalAddWishButton_3"/>
+          <include name="verifyWishListButton_1"/>
+          <include name="verifycheckAddWishButtonForLaptops_7"/>
+          <include name="verifycheckAddWishButtonForCameraFailTrial_9"/>
+        </methods>
+      </class> <!-- AllTests.WishListTest_1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
